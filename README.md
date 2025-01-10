@@ -56,7 +56,7 @@ Add the following element to the `<head>` of your `index.html:`
 ```html
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/catppuccin-docsify@1.1.0/catppuccin_mocha/catppuccin_mocha_mauve.css"
+  href="https://cdn.jsdelivr.net/npm/catppuccin-docsify/catppuccin_mocha/catppuccin_mocha_mauve.css"
 />
 ```
 
