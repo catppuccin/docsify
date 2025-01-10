@@ -1,17 +1,34 @@
----
-whiskers:
-  version: 2.5.1
-  matrix:
-    - flavor
-    - accent
-  filename: "themes/catppuccin_{{ flavor.identifier }}/catppuccin_{{ flavor.identifier }}_{{ accent }}.css"
----
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
 
 :root {
-  /* catppuccin palette */{% for identifier, color in flavor.colors %}
-  --{{ identifier }}: {{ css_hsl(color=color) }};{% endfor %}
-  --theme-color: var(--{{ accent }});
+  /* catppuccin palette */
+  --rosewater: hsl(10, 57%, 88%);
+  --flamingo: hsl(0, 58%, 84%);
+  --pink: hsl(316, 73%, 84%);
+  --mauve: hsl(277, 59%, 76%);
+  --red: hsl(359, 68%, 71%);
+  --maroon: hsl(358, 66%, 76%);
+  --peach: hsl(20, 79%, 70%);
+  --yellow: hsl(40, 62%, 73%);
+  --green: hsl(96, 44%, 68%);
+  --teal: hsl(172, 39%, 65%);
+  --sky: hsl(189, 48%, 73%);
+  --sapphire: hsl(199, 55%, 69%);
+  --blue: hsl(222, 74%, 74%);
+  --lavender: hsl(239, 66%, 84%);
+  --text: hsl(227, 70%, 87%);
+  --subtext1: hsl(227, 44%, 80%);
+  --subtext0: hsl(228, 29%, 73%);
+  --overlay2: hsl(228, 22%, 66%);
+  --overlay1: hsl(227, 17%, 58%);
+  --overlay0: hsl(229, 13%, 52%);
+  --surface2: hsl(228, 13%, 44%);
+  --surface1: hsl(227, 15%, 37%);
+  --surface0: hsl(230, 16%, 30%);
+  --base: hsl(229, 19%, 23%);
+  --mantle: hsl(231, 19%, 20%);
+  --crust: hsl(229, 20%, 17%);
+  --theme-color: var(--sky);
 }
 * {
   -webkit-font-smoothing: antialiased;
