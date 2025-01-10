@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+:root {
+  /* catppuccin palette */
+  --rosewater: hsl(11, 59%, 67%);
+  --flamingo: hsl(0, 60%, 67%);
+  --pink: hsl(316, 73%, 69%);
+  --mauve: hsl(266, 85%, 58%);
+  --red: hsl(347, 87%, 44%);
+  --maroon: hsl(355, 76%, 59%);
+  --peach: hsl(22, 99%, 52%);
+  --yellow: hsl(35, 77%, 49%);
+  --green: hsl(109, 58%, 40%);
+  --teal: hsl(183, 74%, 35%);
+  --sky: hsl(197, 96%, 46%);
+  --sapphire: hsl(189, 70%, 42%);
+  --blue: hsl(220, 91%, 54%);
+  --lavender: hsl(231, 97%, 72%);
+  --text: hsl(234, 16%, 36%);
+  --subtext1: hsl(233, 13%, 42%);
+  --subtext0: hsl(233, 10%, 47%);
+  --overlay2: hsl(232, 10%, 53%);
+  --overlay1: hsl(231, 10%, 59%);
+  --overlay0: hsl(228, 11%, 65%);
+  --surface2: hsl(227, 12%, 71%);
+  --surface1: hsl(225, 14%, 77%);
+  --surface0: hsl(223, 16%, 83%);
+  --base: hsl(220, 23%, 95%);
+  --mantle: hsl(220, 22%, 92%);
+  --crust: hsl(220, 21%, 89%);
+
+  /* Color */
+  --color-text: var(--text);
+  --theme-color: var(--base);
+
+  /* Typography */
+  --font-family: "Source Sans 3", sans-serif;
+  --font-family-mono: "JetBrains Mono", monospace;
+  --font-size: 15px;
+  --font-size-xxxl: 2rem;
+  --font-size-xxl: 1.75rem;
+  --font-size-xl: 1.5rem;
+  --font-size-l: 1.25rem;
+  --content-max-width: 85ch;
+
+  /* Common */
+  --margin-block: 1.2em;
+
+  /* Elements */
+  --code-color: var(--text);
+  --codeblock-comment: var(--surface2);
+  --codeblock-function: var(--blue);
+  --codeblock-important: var(--red);
+  --codeblock-keyword: var(--mauve);
+  --codeblock-operator: var(--sky);
+  --codeblock-property: var(--text);
+  --codeblock-punctuation: var(--surface2);
+  --codeblock-selector: var(--pink);
+  --codeblock-tag: var(--yellow);
+  --codeblock-variable: var(--text);
+}
+
+/* Sidebar */
+/* ========================================================================== */
+.sidebar-nav {
+  li.active > a {
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 3px;
+      background: var(--theme-color);
+    }
+  }
+
+  .app-sub-sidebar {
+    li::before {
+      content: "-";
+      margin-right: 0.25em;
+      float: left;
+    }
+  }
+}
