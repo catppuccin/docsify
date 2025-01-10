@@ -158,7 +158,7 @@ body {
   background-color: var(--base) !important;
 }
 body.close {
-  background-color: transparent !important;
+  background-color: var(--base) !important;
 }
 .sidebar {
   color: var(--surface2) !important;
