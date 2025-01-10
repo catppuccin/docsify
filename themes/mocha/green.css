@@ -1,354 +1,355 @@
 :root {
   /* catppuccin palette */
-  --rosewater: hsl(10, 56%, 91%);
-  --flamingo: hsl(0, 59%, 88%);
-  --pink: hsl(316, 72%, 86%);
-  --mauve: hsl(267, 84%, 81%);
-  --red: hsl(343, 81%, 75%);
-  --maroon: hsl(350, 65%, 78%);
-  --peach: hsl(23, 92%, 76%);
-  --yellow: hsl(41, 86%, 83%);
-  --green: hsl(115, 54%, 76%);
-  --teal: hsl(170, 57%, 73%);
-  --sky: hsl(189, 71%, 73%);
-  --sapphire: hsl(199, 76%, 69%);
-  --blue: hsl(217, 92%, 76%);
-  --lavender: hsl(232, 97%, 85%);
-  --text: hsl(226, 64%, 88%);
-  --subtext1: hsl(227, 35%, 80%);
-  --subtext0: hsl(228, 24%, 72%);
-  --overlay2: hsl(228, 17%, 64%);
-  --overlay1: hsl(230, 13%, 56%);
-  --overlay0: hsl(231, 11%, 47%);
-  --surface2: hsl(233, 12%, 39%);
-  --surface1: hsl(234, 13%, 31%);
-  --surface0: hsl(237, 16%, 23%);
-  --base: hsl(240, 21%, 15%);
-  --mantle: hsl(240, 21%, 12%);
-  --crust: hsl(240, 23%, 9%);
-  --theme-color: var(--green);
+  --rosewater: hsl(10, 56%, 91%) !important;
+  --flamingo: hsl(0, 59%, 88%) !important;
+  --pink: hsl(316, 72%, 86%) !important;
+  --mauve: hsl(267, 84%, 81%) !important;
+  --red: hsl(343, 81%, 75%) !important;
+  --maroon: hsl(350, 65%, 78%) !important;
+  --peach: hsl(23, 92%, 76%) !important;
+  --yellow: hsl(41, 86%, 83%) !important;
+  --green: hsl(115, 54%, 76%) !important;
+  --teal: hsl(170, 57%, 73%) !important;
+  --sky: hsl(189, 71%, 73%) !important;
+  --sapphire: hsl(199, 76%, 69%) !important;
+  --blue: hsl(217, 92%, 76%) !important;
+  --lavender: hsl(232, 97%, 85%) !important;
+  --text: hsl(226, 64%, 88%) !important;
+  --subtext1: hsl(227, 35%, 80%) !important;
+  --subtext0: hsl(228, 24%, 72%) !important;
+  --overlay2: hsl(228, 17%, 64%) !important;
+  --overlay1: hsl(230, 13%, 56%) !important;
+  --overlay0: hsl(231, 11%, 47%) !important;
+  --surface2: hsl(233, 12%, 39%) !important;
+  --surface1: hsl(234, 13%, 31%) !important;
+  --surface0: hsl(237, 16%, 23%) !important;
+  --base: hsl(240, 21%, 15%) !important;
+  --mantle: hsl(240, 21%, 12%) !important;
+  --crust: hsl(240, 23%, 9%) !important;
+  --theme-color: var(--green) !important;
 }
 .progress {
-  background-color: var(--theme-color);
+  background-color: var(--theme-color) !important;
 }
 input[type='search'] {
-  background: var(--mantle);
-  border-color: var(--mantle);
-  color: var(--subtext2);
+  background: var(--mantle) !important;
+  border-color: var(--mantle) !important;
+  color: var(--subtext2) !important;
 }
 .search {
-  border-color: var(--crust);
+  border-color: var(--crust) !important;
 }
 .search .search-keyword,
 .search a:hover {
-  color: var(--theme-color);
+  color: var(--theme-color) !important;
 }
 .search .search-keyword {
-  color: var(--theme-color);
+  color: var(--theme-color) !important;
 }
 .search .results-panel {
-  color: var(--surface2);
+  color: var(--surface2) !important;
 }
 .search .matching-post {
-  border-color: var(--surface0);
+  border-color: var(--surface0) !important;
 }
 body {
-  color: var(--subtext1);
+  color: var(--subtext1) !important;
 }
 kbd {
-  border-color: var(--mantle);
+  border-color: var(--mantle) !important;
 }
 .app-nav a {
-  color: inherit;
+  color: inherit !important;
 }
 .app-nav a.active,
 .app-nav a:hover {
-  color: var(--theme-color);
+  color: var(--theme-color) !important;
 }
 .app-nav a.active {
-  border-color: var(--theme-color);
-  color: var(--theme-color);
+  border-color: var(--theme-color) !important;
+  color: var(--theme-color) !important;
 }
 .app-nav li ul {
-  background-color: var(--text);
-  border: 1px solid var(--subtext0);
-  border-bottom-color: var(--subtext0);
+  background-color: var(--text) !important;
+  border: 1px solid var(--subtext0) !important;
+  border-bottom-color: var(--subtext0) !important;
 }
 .github-corner svg {
-  color: var(--mantle);
-  fill: var(--theme-color);
+  color: var(--mantle) !important;
+  fill: var(--theme-color) !important;
 }
 .anchor span {
-  color: var(--theme-color);
+  color: var(--theme-color) !important;
 }
 .sidebar {
-  border-color: var(--surface1);
+  border-color: var(--surface1) !important;
 }
 .sidebar > h1 a {
-  color: inherit;
-  color: var(--theme-color);
+  color: inherit !important;
+  color: var(--theme-color) !important;
 }
 .sidebar li > p {
-  color: var(--theme-color);
+  color: var(--theme-color) !important;
 }
 .sidebar::-webkit-scrollbar-thumb {
-  background: transparent;
+  background: transparent !important;
 }
 .sidebar:hover::-webkit-scrollbar-thumb {
-  background: var(--subtext1);
+  background: var(--subtext1) !important;
 }
 .sidebar:hover::-webkit-scrollbar-track {
-  background: var(--subtext1);
+  background: var(--subtext1) !important;
 }
 .sidebar-toggle {
-  background-color: transparent;
-  background-color: var(--base);
+  background-color: transparent !important;
+  background-color: var(--base) !important;
 }
 .sidebar-toggle .sidebar-toggle-button:hover {
-  opacity: 0.4;
+  opacity: 0.4 !important;
 }
 .sidebar-toggle span {
-  background-color: var(--theme-color);
+  background-color: var(--theme-color) !important;
 }
 .markdown-section hr {
-  border-bottom: 1px solid var(--subtext1);
+  border-bottom: 1px solid var(--subtext1) !important;
 }
 .markdown-section iframe {
-  border-color: var(--subtext1);
+  border-color: var(--subtext1) !important;
 }
 .markdown-section td,
 .markdown-section th {
-  border-color: var(--subtext2);
+  border-color: var(--subtext2) !important;
 }
 .markdown-section tr {
-  border-color: var(--subtext1);
+  border-color: var(--subtext1) !important;
 }
 .markdown-section p.tip,
 .markdown-section tr:nth-child(2n) {
-  background-color: var(--mantle);
+  background-color: var(--mantle) !important;
 }
 .markdown-section p.tip {
-  border-color: var(--theme-color);
+  border-color: var(--theme-color) !important;
 }
 .markdown-section p.tip:before {
-  background-color: var(--theme-color);
-  color: var(--text);
+  background-color: var(--theme-color) !important;
+  color: var(--text) !important;
 }
 .markdown-section p.tip code {
-  background-color: var(--mantle);
+  background-color: var(--mantle) !important;
 }
 .markdown-section p.tip em {
-  color: var(--subtext2);
+  color: var(--subtext2) !important;
 }
 .markdown-section p.warn {
-  background: var(--base);
+  background: var(--base) !important;
 }
 body.close .sidebar-toggle {
-  background-color: var(--surface2);
+  background-color: var(--surface2) !important;
 }
 section.cover {
-  background: var(--mauve);
+  background: var(--mauve) !important;
 }
 section.cover.has-mask .mask {
-  background-color: var(--text);
+  background-color: var(--text) !important;
 }
 section.cover .cover-main > p:last-child a {
-  border: 1px solid var(--theme-color);
-  color: var(--theme-color);
+  border: 1px solid var(--theme-color) !important;
+  color: var(--theme-color) !important;
 }
 section.cover .cover-main > p:last-child a:last-child {
-  background-color: var(--theme-color);
-  color: var(--subtext1);
+  background-color: var(--theme-color) !important;
+  color: var(--subtext1) !important;
 }
 section.cover .cover-main > p:last-child a:last-child:hover {
-  color: var(--subtext1);
+  color: var(--subtext1) !important;
 }
 section.cover blockquote > p > a {
-  border-color: var(--theme-color);
+  border-color: var(--theme-color) !important;
 }
 section.cover blockquote > p > a:hover {
-  color: var(--theme-color);
+  color: var(--theme-color) !important;
 }
 .sidebar,
 body {
-  background-color: var(--base);
+  background-color: var(--base) !important;
 }
 .sidebar {
-  color: var(--surface2);
+  color: var(--surface2) !important;
 }
 .sidebar ul li a {
-  color: var(--text);
+  color: var(--text) !important;
 }
 .sidebar ul li.active > a {
-  color: var(--theme-color);
+  color: var(--theme-color) !important;
 }
 .markdown-section h1,
 .markdown-section h2,
 .markdown-section h3,
 .markdown-section h4,
 .markdown-section strong {
-  color: var(--text);
+  color: var(--text) !important;
+  border-color: var(--surface2)
 }
 .markdown-section a {
-  color: var(--theme-color);
+  color: var(--theme-color) !important;
 }
 .markdown-section blockquote {
-  border-color: var(--theme-color);
-  color: var(--subtext1);
+  border-color: var(--theme-color) !important;
+  color: var(--subtext1) !important;
 }
 .markdown-section em {
-  color: var(--subtext2);
+  color: var(--subtext2) !important;
 }
 .markdown-section code {
-  color: var(--text);
+  color: var(--text) !important;
 }
 .markdown-section code,
 .markdown-section pre {
-  background-color: var(--mantle);
+  background-color: var(--mantle) !important;
 }
 
 .markdown-section pre > code {
-  background-color: var(--mantle);
-  color: var(--subtext1);
+  background-color: var(--mantle) !important;
+  color: var(--subtext1) !important;
 }
 pre:after {
-  color: var(--subtext1);
+  color: var(--subtext1) !important;
 }
 
 /* CATPPUCCIN PRISM COLORS */
 
 code[class*="language-"],
 pre[class*="language-"] {
-	color: var(--text);
+	color: var(--text) !important;
 }
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-	background: var(--mantle);
+	background: var(--mantle) !important;
 }
 
 /* https://prismjs.com/tokens.html */
 
 .token.keyword {
-	color: var(--mauve);
+	color: var(--mauve) !important;
 }
 
 .token.builtin {
-	color: var(--red);
+	color: var(--red) !important;
 }
 
 .token.class-name {
-	color: var(--yellow);
+	color: var(--yellow) !important;
 }
 
 .token.function {
-	color: var(--blue);
+	color: var(--blue) !important;
 }
 
 .token.boolean,
 .token.number {
-	color: var(--peach);
+	color: var(--peach) !important;
 }
 
 .token.string,
 .token.char {
-	color: var(--green);
+	color: var(--green) !important;
 }
 
 .token.symbol {
-	color: var(--yellow);
+	color: var(--yellow) !important;
 }
 
 .token.regex {
-	color: var(--pink);
+	color: var(--pink) !important;
 }
 
 .token.url {
-	color: var(--green);
+	color: var(--green) !important;
 }
 
 .token.operator {
-	color: var(--sky);
+	color: var(--sky) !important;
 }
 
 .token.variable {
-	color: var(--text);
+	color: var(--text) !important;
 }
 
 .token.constant {
-	color: var(--peach);
+	color: var(--peach) !important;
 }
 
 .token.property {
-	color: var(--blue);
+	color: var(--blue) !important;
 }
 
 .token.punctuation {
-	color: var(--overlay2);
+	color: var(--overlay2) !important;
 }
 
 .token.important {
-	color: var(--mauve);
+	color: var(--mauve) !important;
 }
 
 .token.comment {
-	color: var(--overlay2);
+	color: var(--overlay2) !important;
 }
 
 .token.tag {
-	color: var(--blue);
+	color: var(--blue) !important;
 }
 
 .token.attr-name {
-	color: var(--yellow);
+	color: var(--yellow) !important;
 }
 
 .token.attr-value {
-	color: var(--green);
+	color: var(--green) !important;
 }
 
 .token.namespace {
-	color: var(--yellow);
+	color: var(--yellow) !important;
 }
 
 .token.prolog,
 .token.doctype {
-	color: var(--mauve);
+	color: var(--mauve) !important;
 }
 
 .token.cdata {
-	color: var(--teal);
+	color: var(--teal) !important;
 }
 
 .token.entity {
-	color: var(--red);
+	color: var(--red) !important;
 }
 
 .token.atrule {
-	color: var(--mauve);
+	color: var(--mauve) !important;
 }
 
 .token.selector {
-	color: var(--blue);
+	color: var(--blue) !important;
 }
 
 /* Diff */
 
 .token.deleted {
-	color: var(--red);
+	color: var(--red) !important;
 }
 
 .token.inserted {
-	color: var(--green)
+	color: var(--green) !important;
 }
 
 /* Other */
 
 .token.important,
 .token.bold {
-	font-weight: bold;
+	font-weight: bold !important;
 }
 .token.italic {
-	font-style: italic;
+	font-style: italic !important;
 }
 

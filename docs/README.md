@@ -15,6 +15,8 @@
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/preview.webp"/>
 </p>
 
+<div id="previews"></div>
+
 ## Previews
 
 <details>
