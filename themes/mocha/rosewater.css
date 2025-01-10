@@ -71,7 +71,7 @@ kbd {
 }
 .app-nav li ul {
   background-color: var(--text) !important;
-  border: 1px solid var(--subtext0) !important;
+  border-color: var(--subtext0) !important;
   border-bottom-color: var(--subtext0) !important;
 }
 .github-corner svg {
@@ -102,7 +102,6 @@ kbd {
 }
 .sidebar-toggle {
   background-color: transparent !important;
-  background-color: var(--base) !important;
 }
 .sidebar-toggle-button {
   background-color: var(--mantle) !important;
@@ -114,7 +113,7 @@ kbd {
   background-color: var(--theme-color) !important;
 }
 .markdown-section hr {
-  border-bottom: 1px solid var(--subtext1) !important;
+  border-color: var(--subtext1) !important;
 }
 .markdown-section iframe {
   border-color: var(--subtext1) !important;
@@ -146,9 +145,6 @@ kbd {
 .markdown-section p.warn {
   background: var(--base) !important;
 }
-body.close .sidebar-toggle {
-  background-color: var(--surface2) !important;
-}
 section.cover {
   background: var(--mauve) !important;
 }
@@ -156,7 +152,7 @@ section.cover.has-mask .mask {
   background-color: var(--text) !important;
 }
 section.cover .cover-main > p:last-child a {
-  border: 1px solid var(--theme-color) !important;
+  border-color: var(--theme-color) !important;
   color: var(--theme-color) !important;
 }
 section.cover .cover-main > p:last-child a:last-child {
@@ -175,6 +171,9 @@ section.cover blockquote > p > a:hover {
 .sidebar,
 body {
   background-color: var(--base) !important;
+}
+body.close {
+  background-color: transparent !important;
 }
 .sidebar {
   color: var(--surface2) !important;

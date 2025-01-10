@@ -87,7 +87,6 @@ kbd {
 }
 .sidebar-toggle {
   background-color: transparent !important;
-  background-color: var(--base) !important;
 }
 .sidebar-toggle-button {
   background-color: var(--mantle) !important;
@@ -131,9 +130,6 @@ kbd {
 .markdown-section p.warn {
   background: var(--base) !important;
 }
-body.close .sidebar-toggle {
-  background-color: var(--surface2) !important;
-}
 section.cover {
   background: var(--mauve) !important;
 }
@@ -160,6 +156,9 @@ section.cover blockquote > p > a:hover {
 .sidebar,
 body {
   background-color: var(--base) !important;
+}
+body.close {
+  background-color: transparent !important;
 }
 .sidebar {
   color: var(--surface2) !important;
