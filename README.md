@@ -37,17 +37,14 @@
 For an interactive preview, [visit the docsify website](https://docsify.js.org/#/more-pages?id=table-of-contents) and copy paste this script into the console:
 
 ```js
-let theme = "mocha/mauve";
 document.head.appendChild(
   Object.assign(document.createElement("style"), {
     textContent: await fetch(
-      `https://raw.githubusercontent.com/nik-rev/catppuccin-docsify/refs/heads/main/themes/${theme}.css`,
+      `https://raw.githubusercontent.com/nik-rev/catppuccin-docsify/refs/heads/main/themes/mocha/mauve.css`,
     ).then((res) => res.text()),
   }),
 );
 ```
-
-Replace `theme` variable with the `${flavor}_${accent}`, which you can find a list of in the `themes/*` directories.
 
 ## Usage
 
@@ -56,13 +53,19 @@ Add the following element to the `<head>` of your `index.html:`
 ```html
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/catppuccin-docsify/mocha/mauve.css"
+  href="https://cdn.jsdelivr.net/npm/catppuccin-docsify/<flavor>/<accent>.css"
 />
 ```
 
-Replace the `mocha/mauve` with the flavor and accent you would like to use.
+Replace the `<flavor>` and `<accent>` with the ones you would like to see.
 
 You can see a list of all available flavors and accents in the [./themes](./themes) directory.
+
+## Contributing
+
+This repository uses [Whiskers](https://github.com/catppuccin/whiskers) to generate theme files.
+
+Edit the `docsify.tera` template, and run either `whiskers docsify.tera` or `just build` (if you have [just](https://github.com/casey/just) installed) to update the files in `themes/`.
 
 ## 💝 Thanks to
 
