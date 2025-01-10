@@ -37,11 +37,11 @@
 For an interactive preview, [visit the docsify website](https://docsify.js.org/#/more-pages?id=table-of-contents) and copy paste this script into the console:
 
 ```js
-let theme = "mocha_mauve";
+let theme = "mocha/mauve";
 document.head.appendChild(
   Object.assign(document.createElement("style"), {
     textContent: await fetch(
-      `https://raw.githubusercontent.com/nik-rev/catppuccin-docsify/refs/heads/main/themes/catppuccin_${theme.split("_")[0]}/catppuccin_${theme}.css`,
+      `https://raw.githubusercontent.com/nik-rev/catppuccin-docsify/refs/heads/main/themes/${theme}.css`,
     ).then((res) => res.text()),
   }),
 );
@@ -56,11 +56,13 @@ Add the following element to the `<head>` of your `index.html:`
 ```html
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/catppuccin-docsify/catppuccin_mocha/catppuccin_mocha_mauve.css"
+  href="https://cdn.jsdelivr.net/npm/catppuccin-docsify/mocha/mauve.css"
 />
 ```
 
-Replace the `mocha`s with the flavor you would like to use, and the `mauve` with the accent. You can see a list of all available flavors and accents in the [./themes](./themes) directory.
+Replace the `mocha/mauve` with the flavor and accent you would like to use.
+
+You can see a list of all available flavors and accents in the [./themes](./themes) directory.
 
 ## 💝 Thanks to
 
