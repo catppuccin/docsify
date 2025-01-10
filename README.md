@@ -34,21 +34,37 @@
 <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/mocha.webp"/>
 </details>
 
+For an interactive preview, [visit the docsify website](https://docsify.js.org/#/more-pages?id=table-of-contents) and copy paste this script into the console:
+
+```js
+let theme = "mocha_mauve";
+document.head.appendChild(
+  Object.assign(document.createElement("style"), {
+    textContent: await fetch(
+      `https://raw.githubusercontent.com/nik-rev/catppuccin-docsify/refs/heads/main/themes/catppuccin_${theme.split("_")[0]}/catppuccin_${theme}.css`,
+    ).then((res) => res.text()),
+  }),
+);
+```
+
+Replace `theme` variable with the `${flavor}_${accent}`, which you can find a list of in the `themes/*` directories.
+
 ## Usage
 
-1. Download the flavor of your choice.
-2. Open the app and go to **Preferences** > **Appearance** > **Import theme**.
-3. Select the downloaded flavor file.
+Add the following element to the `<head>` of your `index.html:`
 
-<!-- The FAQ section is optional. Remove if needed.-->
-## 🙋 FAQ
+```html
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/catppuccin-docsify@1.1.0/catppuccin_mocha/catppuccin_mocha_mauve.css"
+/>
+```
 
-- Q: **_"How can I do X?"_**\
-  A: ...
+Replace the `mocha`s with the flavor you would like to use, and the `mauve` with the accent. You can see a list of all available flavors and accents in the [./themes](./themes) directory.
 
 ## 💝 Thanks to
 
-- [Human](https://github.com/catppuccin)
+- [Nikita Revenco](https://github.com/nik-rev)
 
 &nbsp;
 
