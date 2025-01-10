@@ -36,18 +36,6 @@
 <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/mocha.webp"/>
 </details>
 
-For an interactive preview, [visit the docsify website](https://docsify.js.org/#/more-pages?id=table-of-contents) and copy paste this script into the console:
-
-```js
-document.head.appendChild(
-  Object.assign(document.createElement("style"), {
-    textContent: await fetch(
-      `https://raw.githubusercontent.com/nik-rev/catppuccin-docsify/refs/heads/main/themes/mocha/mauve.css`,
-    ).then((res) => res.text()),
-  }),
-);
-```
-
 ## Usage
 
 Add the following element to the `<head>` of your `index.html:`
