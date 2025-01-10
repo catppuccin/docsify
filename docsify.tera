@@ -85,7 +85,7 @@ body {
   -webkit-font-smoothing: antialiased;
   /* color: #34495e; */
   color: var(--subtext1);
-  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   letter-spacing: 0;
   margin: 0;
@@ -408,6 +408,7 @@ body.sticky .sidebar-toggle {
 }
 .markdown-section p.tip code {
   background-color: var(--mantle);
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 .markdown-section p.tip em {
   color: var(--subtext2);
@@ -713,11 +714,12 @@ body {
   border-radius: 2px;
   color: var(--text);
   white-space: pre-wrap;
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 .markdown-section code,
 .markdown-section pre {
   background-color: var(--mantle);
-  font-family: "JetBrains Mono", Roboto Mono, Monaco, courier, monospace;
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 .markdown-section pre {
   -moz-osx-font-smoothing: initial;
@@ -737,7 +739,7 @@ body {
   border-radius: 2px;
   color: var(--subtext1);
   display: block;
-  font-family: "JetBrains Mono", Roboto Mono, Monaco, courier, monospace;
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-size: 0.9rem;
   line-height: inherit;
   margin: 0 2px;
