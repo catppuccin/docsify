@@ -53,9 +53,9 @@ You can see a list of all available flavors and accents in the [./themes](./them
 
 ## Contributing
 
-This repository uses [Whiskers](https://github.com/catppuccin/whiskers) to generate theme files.
+This repository uses [Whiskers](https://github.com/catppuccin/whiskers) and [Just](https://github.com/casey/just) to generate theme files.
 
-Edit the `docsify.tera` template, and run either `whiskers docsify.tera` or `just build` (if you have [just](https://github.com/casey/just) installed) to update the files in `themes/`.
+Edit the `docsify.tera` template, and run `just build`.
 
 ## 💝 Thanks to
 
