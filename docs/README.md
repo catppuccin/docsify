@@ -51,6 +51,19 @@ Replace the `<flavor>` and `<accent>` with the ones you would like to see.
 
 You can see a list of all available flavors and accents in the [./themes](./themes) directory.
 
+## FAQ
+
+- **Q**: Why are only colors applied?
+
+  **A**: This theme does not apply any non-color styles. This is good because you have more flexibility as you can pick external themes which _do_ affect the layout of the HTML. For example, the docs in this repo use the following theme:
+
+  ```html
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css"
+  />
+  ```
+
 ## Contributing
 
 This repository uses [Whiskers](https://github.com/catppuccin/whiskers) and [Just](https://github.com/casey/just) to generate theme files.
