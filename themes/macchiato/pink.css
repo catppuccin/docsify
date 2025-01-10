@@ -104,8 +104,11 @@ kbd {
   background-color: transparent !important;
   background-color: var(--base) !important;
 }
+.sidebar-toggle-button {
+  background-color: var(--mantle) !important;
+}
 .sidebar-toggle .sidebar-toggle-button:hover {
-  opacity: 0.4 !important;
+  background-color: var(--crust) !important;
 }
 .sidebar-toggle span {
   background-color: var(--theme-color) !important;
