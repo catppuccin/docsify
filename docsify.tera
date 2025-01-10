@@ -7,8 +7,10 @@ whiskers:
   filename: "themes/{{ flavor.identifier }}/{{ accent }}.css"
 ---
 :root {
-  /* catppuccin palette */{% for identifier, color in flavor.colors %}
-  --{{ identifier }}: {{ css_hsl(color=color) }};{% endfor %}
+  /* catppuccin palette */
+  {%- for identifier, color in flavor.colors %}
+  --{{ identifier }}: {{ css_hsl(color=color) }};
+  {%- endfor %}
   --theme-color: var(--{{ accent }});
 }
 .progress {
