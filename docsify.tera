@@ -6,6 +6,8 @@ whiskers:
     - accent
   filename: "themes/{{ flavor.identifier }}/{{ accent }}.css"
 ---
+@import https://prismjs.catppuccin.com/{{ flavor.identifier }}.css;
+
 :root {
   /* catppuccin palette */
   {%- for identifier, color in flavor.colors %}
@@ -202,5 +204,3 @@ body.close {
 pre:after {
   color: var(--subtext1) !important;
 }
-
-@import https://prismjs.catppuccin.com/{{ flavor.identifier }}.css;

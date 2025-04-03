@@ -1,3 +1,5 @@
+@import https://prismjs.catppuccin.com/mocha.css;
+
 :root {
   /* catppuccin palette */
   --rosewater: hsl(10, 56%, 91%) !important;
@@ -217,5 +219,3 @@ body.close {
 pre:after {
   color: var(--subtext1) !important;
 }
-
-@import https://prismjs.catppuccin.com/mocha.css;
