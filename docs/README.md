@@ -41,7 +41,7 @@ Add the following element to the `<head>` of your `index.html:`
 ```html
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/catppuccin-docsify/<flavor>/<accent>.css"
+  href="https://docsify.catppuccin.com/<flavor>/<accent>.css"
 />
 ```
 

@@ -20,7 +20,6 @@ jobs:
       - name: Copy theme files
         run: |
           cp -r themes/* docs
-          rm docs/package.json
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
