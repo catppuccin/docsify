@@ -3,7 +3,7 @@ name: Docsify
 on:
   push:
     branches:
-      - main
+      - docsify-gh-action
 
 permissions:
   contents: write
@@ -16,6 +16,11 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+
+      - name: Copy theme files
+        run: |
+          cp -r themes/* docs
+          rm docs/package.json
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
