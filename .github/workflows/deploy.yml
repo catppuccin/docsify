@@ -3,7 +3,7 @@ name: Docsify
 on:
   push:
     branches:
-      - docsify-gh-action
+      - main
 
 permissions:
   contents: write
