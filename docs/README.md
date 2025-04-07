@@ -15,8 +15,6 @@
 	<img src="./assets/preview.webp"/>
 </p>
 
-<div id="previews"></div>
-
 ## Previews
 
 <details>
