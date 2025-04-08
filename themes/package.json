@@ -1,9 +1,0 @@
-{
-  "name": "catppuccin-docsify",
-  "version": "10.0.0",
-  "description": "Soothing pastel theme for docsify",
-  "main": "",
-  "keywords": ["catppuccin", "docsify", "docsify-theme"],
-  "author": "Catppuccin",
-  "license": "MIT"
-}
