@@ -3,3 +3,4 @@ _default:
 
 build:
   whiskers docsify.tera
+  nu build.nu
