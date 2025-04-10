@@ -6,7 +6,7 @@ whiskers:
     - accent
   filename: "themes/{{ flavor.identifier }}/{{ accent }}.css"
 ---
-@import https://prismjs.catppuccin.com/{{ flavor.identifier }}.css;
+@import url(https://prismjs.catppuccin.com/{{ flavor.identifier }}.css);
 
 :root {
   /* catppuccin palette */
